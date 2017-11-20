@@ -31,12 +31,27 @@
     console.log(middle);
     var last = 'Bray';
     console.log(last);
-    var name = first + middle + last;
+    var space = ' '
+    var name = first + space + middle + space + last;
     console.log(name);
     var statement = 'my name is ' + name;
     console.log(statement);
     var greeting = 'Hi, ' + statement;
     console.log(greeting);
+    function square(number) {
+      var squaredNumber = number*number;
+      console.log(squaredNumber);
+    }
+    square(5)
+    square(6)
+    square(7)
+    function makenames(firstname, middlename, lastname) {
+      var fullName = firstname + space + middlename + space +lastname;
+      console.log(fullName)
+    }
+    makenames('amanda', 'leigha', 'bray')
+    makenames('Anna', 'Rosa', 'Pelagio')
+    makenames('Sarah', 'Elizabeth', 'Remelius')
   </script>
 </head>
 </html>
